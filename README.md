@@ -4,7 +4,7 @@
 
 This is a SUPER EASY TO USE version of a previously used and published method to do optical flow analysis in cells.
 
-I got a version from **_Ivan Rey-Suarez_** and **_Arpita Upadhyaya_**. That version was adapted by them from one made by the @LosertLab at https://github.com/losertlab/flowclustertracking as per the manuscript: "Quantifying topography-guided actin dynamics across scales using optical flow" by Lee*, Campanello*, Hourwitz, Alvarez, Omidvar, Fourkas and Losert.
+I got a version from **_Ivan Rey-Suarez_** and **_Arpita Upadhyaya_**, "Nanotopography modulates cytoskeletal organization and dynamics during T cell activation" by Brittany A. Wheatley, Ivan Rey-Suarez, Matt J. Hourwitz, Sarah Kerr, Hari Shroff, John T. Fourkas, and Arpita Upadhyaya. That version was adapted by them from one made by the @LosertLab at https://github.com/losertlab/flowclustertracking as per the manuscript: "Quantifying topography-guided actin dynamics across scales using optical flow" by Lee*, Campanello*, Hourwitz, Alvarez, Omidvar, Fourkas and Losert.
 
 What I did, is to make a 'one-click' version that:
 
