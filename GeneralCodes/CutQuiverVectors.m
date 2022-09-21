@@ -1,0 +1,9 @@
+function [vx, vy] = CutQuiverVectors(vx, vy)
+buffer = 2;
+[x, y, ~] = ndgrid(1:size(vx, 1), 1:size(vx, 2), 1:size(vx, 3)); 
+xNew = x + vy; 
+yNew = y + vx;
+xNew = double(xNew > (size(x, 1) - buffer)) + double(xNew < 1 + buffer) > 0;
+yNew = double(yNew > (size(x, 2) - buffer)) + double(yNew < 1 + buffer) > 0;
+vx = vx.*double(~xNew).*double(~yNew);
+vy = vy.*double(~xNew).*double(~yNew);
